@@ -1,0 +1,55 @@
+<!<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>滑块验证</title>
+    <script src="slider.js"></script>
+    <style>
+        #box {
+            position: relative;
+            width: 300px;
+            height: 40px;
+            background-color: #e8e8e8;
+            line-height: 40px;
+            margin: 20px auto;
+        }
+        .slider_btn {
+            position: absolute;
+            top: 0;
+            width: 40px;
+            height: 40px;
+            z-index: 3;
+            background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAApCAIAAADMNSyiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEGSURBVFhH7djBCoMgGMBx3/9JeoGeI+ikqTOdwShWJNQp2L6NDpHbBN2MgX+89F1+YZf40DzP4zgKIQihGFcYkx+fCiBKeV1LrRtkjGGMS3m+XvtoRylN2Ykygfq+51zcoieEPOsL6roOrmKdRexx/7JBbdsextc68YmPXuL/kp+maVmW9eGZPXHmz2OMy7LcevbEmT+vlMrzfOvZE2f+PAT/BzvPnnwuiIcC3yCUh8DLsowQsj6/mrzrz3n7qu3Jh4L4QBvy58NtyJ8vimIn2RNn/vwwDDvJnjjz579S4hOf+MRHLvHAH7zdOHi3Y4wB/oDNFuWMie1eL8JS73EAen54qXVzB5kIjbPPUowwAAAAAElFTkSuQmCC) center no-repeat;
+            cursor: pointer;
+        }
+        .txt {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+            text-align: center;
+            z-index: 2;
+        }
+        .bg {
+            position: absolute;
+            height: 100%;
+            background-color: #7ac23c;
+            z-index:1;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <!-- 滑块 -->
+        <div class="slider_btn">
+        </div>
+
+        <!-- 文字 -->
+        <span class="txt">拖动滑块验证</span>
+
+        <!-- 背景 -->
+        <div class="bg">
+        </div>
+    </div>
+</body>
+</html>

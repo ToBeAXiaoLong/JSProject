@@ -1,0 +1,89 @@
+body {
+    position: relative;
+}
+.menu_nav {
+    text-align: left;
+    height: 50px;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    text-align: right;
+}
+.content {
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin: 40px auto;
+    opacity: 0.5;
+    font-size: 24px;
+}
+.div_right {
+    margin: 0;
+    display: inline-block;
+    height: 100%;
+    /* line-height: 50px; */
+}
+.btn {
+    height: 100%;
+    width: 70px;
+    margin: 0;
+    border: none;
+    color: white;
+}
+.btn_gray {
+    background-color: gray;
+}
+.btn_blue {
+    background-color: rgb(22, 140, 197);
+}
+.btn_green {
+    background-color: rgb(28, 104, 0);
+}
+.btn_yellow {
+    background-color: rgb(212, 107, 22);
+}
+/* 默认 */
+body.gray {
+    background: url(../images/bg1.jpg) no-repeat;
+}
+.gray .menu_nav {
+    background-color: rgb(159, 153, 137);
+}
+.gray .content {
+    background-color: rgb(159, 153, 137);
+    color: white;
+}
+/* 蓝色 */
+body.blue {
+    background: url(../images/bg2.jpg) no-repeat;
+}
+.blue .menu_nav {
+    background-color: rgb(48, 130, 220);
+}
+.blue .content {
+    background-color: rgb(48, 130, 220);
+    color: white;
+}
+/* 绿色 */
+body.green {
+    background: url(../images/bg3.jpg) no-repeat;
+}
+.green .menu_nav {
+    background-color: rgb(42, 111, 206);
+}
+.green .content {
+    background-color: rgb(42, 111, 206);
+    color: blue;
+}
+/* 黄色 */
+body.yellow {
+    background: url(../images/bg4.jpg) no-repeat;
+}
+.yellow .menu_nav {
+    background-color: rgb(225, 183, 13);
+}
+.yellow .content {
+    background-color: rgb(225, 183, 13);
+    color: white;
+}
